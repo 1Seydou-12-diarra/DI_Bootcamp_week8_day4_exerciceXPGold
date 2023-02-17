@@ -2,8 +2,8 @@
 
 // 1- Créez une connexion de base de données au serveur PostgreSQL.
 $dsn = "pgsql:host=localhost;port=5432;dbname=mydatabase";
-$username = "myusername";
-$password = "mypassword";
+$username = "postgres";
+$password = "postgres";
 
 try {
     $dbh = new PDO($dsn, $username, $password);
